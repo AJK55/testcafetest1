@@ -1,3 +1,3 @@
 "scripts": {
-    "test":  "testcafe chrome,firefox curaTest.js.js"
+    "test":  "testcafe chrome,firefox curaTest.js"
 }
