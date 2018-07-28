@@ -1,5 +1,6 @@
 {
 "scripts": {
-    "test":  "testcafe chrome,firefox curaTest.js"
+    "e2e":  "testcafe chrome,firefox curaTest.js",
+    "test": "npm run e2e"
   }
 }
