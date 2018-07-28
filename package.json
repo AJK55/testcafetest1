@@ -1,0 +1,3 @@
+"scripts": {
+    "test":  "testcafe chrome,firefox curaTest.js.js"
+}
