@@ -1,6 +1,6 @@
 {
 "scripts": {
-    "e2e":  "testcafe \"saucelabs:Chrome@beta:Windows 10\" curaTest.js",
+    "e2e":  "testcafe chrome,firefox curaTest.js",
     "test": "npm run e2e"
   },
 
