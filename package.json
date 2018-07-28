@@ -1,12 +1,9 @@
 {
-"scripts": {
-    "e2e":  "testcafe chrome,firefox curaTest.js",
-    "test": "npm run e2e"
-  },
-
-  "devDependencies": {
-
-    "testcafe": "*"
-
-  }
+    "scripts": {
+        "test": "testcafe \"saucelabs:Chrome@68.0:Windows 10\" curaTest.js"
+    },
+    "devDependencies": {
+        "testcafe": "*",
+        "testcafe-browser-provider-saucelabs": "^1.3.1"
+    }
 }
