@@ -5,7 +5,7 @@ import { ClientFunction } from 'testcafe';
 export default class Profile {
   constructor() {
     this.profilePageText = [
-      this.proPageURL = 'http://demoaut.katalon.com/profile.php#profile',
+      this.proPageURL = 'https://katalon-demo-cura.herokuapp.com/profile.php#profile',
       this.proPageHeaderT   = 'Profile',
       this.proPageSubHT     = 'Under construction.'
       ];
