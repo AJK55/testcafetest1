@@ -20,8 +20,8 @@ export default class Page {
     this.sideHome               = Selector('.sidebar-nav > li:nth-child(3) > a:nth-child(1)');
     this.sideLogin              = Selector('.sidebar-nav > li:nth-child(4) > a:nth-child(1)');
     this.sideProfile            = Selector('.sidebar-nav > li:nth-child(5) > a:nth-child(1)');
-    this.homeURL                = 'http://demoaut.katalon.com/';
-    this.loginURL               = 'http://demoaut.katalon.com/profile.php#login';
+    this.homeURL                = 'https://katalon-demo-cura.herokuapp.com/';
+    this.loginURL               = 'https://katalon-demo-cura.herokuapp.com/profile.php#login';
     this.loginPageHeader        = Selector('.col-sm-12 > h2:nth-child(1)');
     this.loginPageSubHeader     = Selector('.lead');
     this.toTop                  = Selector('#to-top');

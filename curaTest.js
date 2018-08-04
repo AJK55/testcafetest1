@@ -178,7 +178,7 @@ test('Login w/ Valid Credentials, Press Enter', async t=> {
     .typeText(page.loginPass, cred.validPassword)
     .pressKey('enter')
   await t
-    .expect(func.getPageUrl()).eql('http://demoaut.katalon.com/#appointment')
+    .expect(func.getPageUrl()).eql('https://katalon-demo-cura.herokuapp.com/#appointment')
     .expect(page.makeApptPgHeader.innerText).eql('Make Appointment')
 });
 
@@ -190,7 +190,7 @@ test('Login w/ Valid Credentials, Click Login', async t=> {
     .typeText(page.loginPass, cred.validPassword)
     .click(page.loginLogin)
   await t
-    .expect(func.getPageUrl()).eql('http://demoaut.katalon.com/#appointment')
+    .expect(func.getPageUrl()).eql('https://katalon-demo-cura.herokuapp.com/#appointment')
     .expect(page.makeApptPgHeader.innerText).eql('Make Appointment')
 });
 
@@ -211,7 +211,7 @@ test('Login w/ Bad UserName & Password, then Correct for Login', async t=> {
     .typeText(page.loginPass, cred.validPassword, { replace : true})
     .click(page.loginLogin)
   await t
-    .expect(func.getPageUrl()).eql('http://demoaut.katalon.com/#appointment')
+    .expect(func.getPageUrl()).eql('https://katalon-demo-cura.herokuapp.com/#appointment')
     .expect(page.makeApptPgHeader.innerText).eql('Make Appointment')
 });
 
