@@ -1,7 +1,8 @@
 {  
   "scripts": {
-   "test": "testcafe firefox curaTest.js"
-  },
+    "test": "testcafe firefox curaTest.js",
+    "test": "testcafe firefox curaTest.js"
+      },
     "devDependencies": {
       "testcafe": "*"
     }
