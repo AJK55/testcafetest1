@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "testcafe firefox curaTest.js"
+    "test": "testcafe \"saucelabs:Chrome@beta:Windows 10\" curaTest.js"
   },
   "devDependencies": {
     "testcafe": "*",
