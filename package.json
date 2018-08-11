@@ -1,7 +1,6 @@
 {  
   "scripts": {
-   "e2e": "testcafe chrome,firefox curaTest.js --app \"http-server ./ -p 3000\"",
-   "test": "npm run e2e"
+   "test": "testcafe chrome,firefox curaTest.js --app \"http-server ./ -p 3000\""
   },
     "devDependencies": {
       "testcafe": "*"
