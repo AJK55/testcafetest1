@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "testcafe \"saucelabs:Chrome@beta:Windows 10\",\"saucelabs:iPhone X Simulator@11.3\" curaTest.js"
+    "test": "testcafe chrome,firefox,\"saucelabs:Chrome@beta:Windows 10\",\"saucelabs:iPhone X Simulator@11.3\" curaTest.js"
   },
   "devDependencies": {
     "testcafe": "*",
