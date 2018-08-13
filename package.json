@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "testcafe chrome curaTest.js"
+    "test": "testcafe -c 2 chrome curaTest.js"
   },
   "devDependencies": {
     "testcafe": "*",
