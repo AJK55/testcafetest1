@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "testcafe chrome,firefox *"
+    "test": "testcafe chrome,firefox makeAppointmentTest.js"
   },
   "devDependencies": {
     "testcafe": "*",
