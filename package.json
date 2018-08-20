@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "testcafe chrome,firefox /*"
+    "test": "testcafe chrome,firefox curaTest.js"
   },
   "devDependencies": {
     "testcafe": "*",
