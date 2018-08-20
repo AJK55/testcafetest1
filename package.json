@@ -1,7 +1,6 @@
 {
   "scripts": {
-    # "test": "testcafe chrome,firefox,\"saucelabs:Chrome@beta:Windows 10\",\"saucelabs:iPhone X Simulator@11.3\" makeAppointmentTest.js"
-      "test": "testcafe chrome,firefox makeAppointmentTest.js"
+    "test": "testcafe chrome,firefox,\"saucelabs:Chrome@beta:Windows 10\",\"saucelabs:iPhone X Simulator@11.3\" makeAppointmentTest.js"
   },
   "devDependencies": {
     "testcafe": "*",
