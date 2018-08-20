@@ -41,7 +41,7 @@ export default class MakeAppointment {
       ];
     
     this.confPageText = [
-    this.confPage         = 'http://demoaut.katalon.com/appointment.php#summary',
+    this.confPage         = 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary',
     this.confHeaderT      = 'Appointment Confirmation',   
     this.confSubHeadT     = 'Please be informed that your appointment has been booked as following:'
       ];
