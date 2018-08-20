@@ -24,7 +24,7 @@ export default class MakeAppointment {
     this.prevMonth            = Selector('.datepicker-days > table:nth-child(1) > thead:nth-child(1) > tr:nth-child(2) > th:nth-child(1)');
     this.comment              = Selector('#txt_comment');
     this.submit               = Selector('#btn-book-appointment');
-    this.apptPage             = 'http://demoaut.katalon.com/#appointment';
+    this.apptPage             = 'https://katalon-demo-cura.herokuapp.com/#appointment';
     this.apptPageHeader       = 'Make Appointment';
     this.commentText          = 'This is a test for comments.';
     
